@@ -1,0 +1,51 @@
+
+
+    body {
+        background-color: cadetblue;
+    }
+
+    .Medium_Pizza {
+        background-color: yellow;
+    
+    }
+
+    .Large_Pizza {
+        background-color: orange;
+    }
+
+    .Small_Pizza {
+        background-color: lightcoral;
+    }
+
+    .footer {
+        background-color: lightgreen;
+        padding: 2em; 
+        margin: 2em;
+        border-radius: 1em;
+        display: flex;
+    }
+
+    
+
+    .side-bar {
+         flex: 1;
+    }
+
+    .Contact_Details {
+        flex: 1;
+    }
+
+    .Pizza {
+        padding: 2em; 
+        margin: 2em;
+        width: 300px;
+        border-radius: 1em;
+    }
+    
+    
+@media (min-width: 768px) {
+    .Pizza {
+        display:inline-block;
+    }
+}
+
